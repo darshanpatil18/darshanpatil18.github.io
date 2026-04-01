@@ -285,21 +285,6 @@ a{text-decoration:none;color:inherit}
   color:var(--g);letter-spacing:0.24em;text-transform:uppercase;
 }
 
-/* card floating badges */
-.card-badge{
-  position:absolute;
-  background:rgba(255,255,255,0.95);
-  backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);
-  border:1px solid rgba(255,255,255,0.5);
-  border-radius:12px;padding:0.65rem 1rem;
-  box-shadow:0 4px 20px rgba(0,0,0,0.14);
-  z-index:2;
-}
-.cb-top{top:-14px;left:-22px;animation:float 4s ease-in-out infinite}
-.cb-bot{bottom:20px;right:-22px;animation:float 4s ease-in-out 2s infinite}
-.cb-label{font-size:0.56rem;letter-spacing:0.12em;text-transform:uppercase;color:var(--muted)}
-.cb-val{font-family:var(--serif);font-size:1rem;color:var(--ink);margin-top:2px}
-
 /* card accent offset */
 .card-offset{
   position:absolute;top:14px;left:-14px;bottom:-14px;right:14px;
@@ -638,7 +623,6 @@ footer a:hover{color:var(--g)}
   .hero-card{max-width:200px}
   .cb-top{top:-10px;left:-10px}
   .cb-bot{bottom:14px;right:-10px}
-  .card-badge{padding:0.5rem 0.75rem}
   .cb-val{font-size:0.88rem}
   .cb-label{font-size:0.52rem}
   .hero-h1{font-size:2.6rem}
@@ -731,35 +715,8 @@ footer a:hover{color:var(--g)}
     </div>
   </div>
 
-  <div class="hero-card">
-    <div class="card-offset"></div>
-    <div class="mono-card">
-      <div class="mono-card-glow"></div>
-      <div class="mono-card-dots"></div>
-      <div class="mono-card-border"></div>
-      <div class="mono-inner">
-        <div class="mono-ring-outer">
-          <div class="mono-ring-inner">
-            <span class="mono-letters">DP</span>
-          </div>
-        </div>
-        <div class="mono-text">
-          <div class="mono-name">Darshan Patil</div>
-          <div class="mono-rule"></div>
-          <div class="mono-title">Technical Project Management x Strategist</div>
-        </div>
-      </div>
-    </div>
-    <div class="card-badge cb-top">
-      <div class="cb-label">B.Tech </div>
-      <div class="cb-val">Vellore</div>
-    </div>
-    <div class="card-badge cb-bot">
-      <div class="cb-label">Experience</div>
-      <div class="cb-val">28 Months</div>
-    </div>
-  </div>
-</div>
+
+   
 
 <!-- ── METRICS ── -->
 <div class="metrics">
